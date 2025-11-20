@@ -1,0 +1,106 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.main_footer_div{
+  display: flex;
+  justify-content: space-around;
+  background-color: #111827;
+  color: white;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  border-radius: 10px;
+}
+.main_footer_div div{
+ margin-top: 15px; 
+}
+.logu_image_footer_dev{
+  background-color: rgb(237, 235, 233);
+  width: 100px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+.logu_anchor_dev{
+margin-bottom: 5px;
+}
+.logu_anchor_dev a{
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+}
+.footer_link{
+  font-size: 15px;
+}
+
+.home_footer{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.home_footer link{
+  font-size: 12px;
+}
+
+
+
+
+
+.email_dev{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+  color: black;
+}
+
+
+.email_dev a{
+  color: white;
+  text-decoration: none;
+}
+.call_dev{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.whatsapp_dev{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
+.fasebook_dev{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+.linked_dev{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+.instagram_dev{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+.social_links{
+  text-decoration: none;
+  color: white;
+}
+
+.copyright{
+  display: flex;
+  background-color: #111827;
+  color: #f9fafb;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}

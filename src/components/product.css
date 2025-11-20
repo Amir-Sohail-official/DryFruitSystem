@@ -1,0 +1,83 @@
+*{
+margin: 0%;
+padding: 0%;
+/* outline: 1px solid red; */
+}
+.slick-slide {
+  display: flex !important;
+  justify-content: center;
+  height: 400px;
+  margin-top: 55px;
+  margin-bottom: 35px;
+  border-radius: 10px;
+  position: relative;
+}
+.slick-slide div{
+  padding: 0;
+  margin: 0;
+}
+.product_wrapper{
+  position: relative;
+}
+.product_main_div {
+  width: 270px;
+  height: 370px;
+  background-color: #f0eeed;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: start;
+  line-height: 1.2;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+.product_main_div:hover {
+  transform: scale(1.02);
+}
+.product_main_div img {
+  width: 100%;
+  object-fit: cover;
+  height: 150px;
+  border-radius: 5px;
+}
+.nutrition-info {
+  list-style: none;
+  /* padding-left: 6px; */
+  margin-top: 10px;
+}
+.nutrition-info button {
+  background-color: brown;
+  border: none;
+  color: white;
+  width: 70px;
+  height: 25px;
+  font-size: 12px;
+  padding: 1px;
+  border-radius: 5px;
+  margin-left: 65px;
+}
+.slider_btn{
+  position: absolute;
+  
+  z-index: 2;
+  cursor: pointer;
+  background: none;
+  border: none;
+  background: rgb(170, 170, 193);
+  width: 40px;
+  height: 30px;
+  transition: transform 0.5s ease, background-color 0.7s ease, width 0.7s ease;
+}
+.slider_btn:hover{
+  transform: translateY(-50%);
+  background-color: blue;
+  border-radius: 10px;
+  width: 60px;
+}
+.prev_btn{
+  left: 10px;
+  top: 50%;  
+}
+.next_btn{
+  right: 10px;
+  top: 50%;
+}

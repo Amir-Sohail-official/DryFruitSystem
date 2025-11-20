@@ -1,0 +1,86 @@
+.feedback_container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.feedback_heading {
+  font-size: 26px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.feedback_subheading {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.feedback_form input,
+.feedback_form textarea,
+.feedback_form select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.feedback_form input:focus,
+.feedback_form textarea:focus,
+.feedback_form select:focus {
+  border-color: #007bff;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.feedback_btn {
+  background: #007bff;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.feedback_btn:hover {
+  background: #0056b3;
+}
+
+.rating_field {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin: 15px 0;
+}
+
+.star {
+  font-size: 25px;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.star.filled {
+  color: gold;
+}
+
+.submitted_message {
+  padding: 20px;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
